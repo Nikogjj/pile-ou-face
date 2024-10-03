@@ -3,20 +3,18 @@
 #include <time.h>
 #include <sys/random.h>
 
-void bouclecoucou();
+void sommebetween(int,int);
 
 int main(){
-    bouclecoucou(18);
+    sommebetween(1,5);
 }
 
-void bouclecoucou(int j){
-    for (int i = 0; i < j; i++)
+void sommebetween(int j,int k){
+    int somme1=0;
+    for (int i = 0; i <= k; i++)
     {
-        if (i%2)
-        {
-            printf("%d\n",i);
-        }
-        
+        somme1=somme1+i;
     }
+    printf("%d\n",somme1);
 }
 

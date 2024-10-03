@@ -3,13 +3,13 @@
 #include <time.h>
 #include <sys/random.h>
 
-void bouclecoucou();
+void afficheimpair();
 
 int main(){
-    bouclecoucou(18);
+    afficheimpair(18);
 }
 
-void bouclecoucou(int j){
+void afficheimpair(int j){
     for (int i = 0; i < j; i++)
     {
         if (i%2)
