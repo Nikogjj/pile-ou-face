@@ -1,0 +1,56 @@
+*{
+    font-family: irish grover;
+}
+img{
+    width: 100%;
+}
+body{
+    margin: 0px;
+    background-color: orange;
+}
+
+
+.header{
+    background: linear-gradient(119.03deg, #DB2929 3.99%, #602614 79.64%);
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    color: white;
+    z-index: 0;
+}
+.burger{
+    padding-left: 10%;
+
+}
+.burger h1{
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+.burger p{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.image{
+    position: relative;
+}
+.burgerimage{
+    position: relative;
+    z-index: 2;
+
+}
+#oignon1{
+    width: 13%;
+    position: absolute;
+    top: 1px;
+
+    
+}
+#oignon2{
+    position: absolute;
+    width: 33%;
+    bottom: -50px;
+    right: 9%;
+    transform: scaleX(-1);
+}

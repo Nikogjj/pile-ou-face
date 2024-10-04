@@ -3,14 +3,14 @@
 #include <time.h>
 #include <sys/random.h>
 
-void produitbetween(int,int);
+void quotientbetween(int,int);
 
 int main(){
-    produitbetween(-5,5);
+    quotientbetween(-5,5);
 }
 
-void produitbetween (int j,int k){
-    int produit=1;
+void quotientbetween (int j,int k){
+    int quotient=1;
     for (int i = j; i <= k; i++)
     {
         if (i==0){
